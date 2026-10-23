@@ -1,0 +1,759 @@
+# Warrantee: full text of the public site (updated 2026-10-23)
+
+---
+Source: https://ayush1906saxena.github.io/warrantee/
+
+Skip to content Warrantee How it works
+Proof
+Pricing
+Security
+Warranty
+Watch a real job Private beta · January 2027
+
+# Software that someone answers for.
+Warrantee's AI engineers take over your app, write down what it must always do, and prove every change against that list before it ships. If something we cover breaks, we fix it at our cost.
+See the proof Sign-ups open with the private beta in January 2027 . Live apps first.
+Watch a real job, start to finish S shopnest.app Example app Healthy Overview
+Contract
+Changes
+Warranty
+Incidents
+Contract
+12 clauses
+Approved by you
+This month
+14 changes
+13 shipped · 1 held
+Warranty
+1 re-fix
+0 open
+Changes
+Fix coupon rounding at checkout
+Proven against all 12 clauses
+Shipped 2h ago
+Patch a security advisory in the image library
+Checking against your contract · 7 of 12
+Checking now
+Upgrade the login library to v5
+Breaks clause 01. Your app stays on v4.
+Held back Yesterday
+Export orders to a spreadsheet
+Adds clauses 13 and 14 for you to read
+Needs you Mon
+An example app. Results that aren't examples come from our own recorded runs.
+We adopt apps whichever tool built them. Not affiliated with any of them.
+Lovable
+Bolt
+Replit
+Cursor
+v0
+Base44
+Hand-written
+
+## AI made building easy. Nobody answers for what it builds.
+Every AI tool sells you more code. When that code breaks, leaks or quietly charges the wrong amount, the person left holding it is you.
+91%
+of 200 live apps built with AI coding tools had at least one security flaw. Two in three flaws were critical or high.
+Deng, Fan and Meng, arXiv, 2026 48 days
+a flaw in a popular AI app builder stayed open, exposing one app's 18,697 user records.
+The Next Web, Apr 2026 Jan 2026
+standard business liability policies began excluding losses caused by generative AI.
+Verisk ISO forms, via Big I
+## Three things we put in writing.
+Every step in detail 01
+
+### We write down what your app must always do.
+Our planning agent reads your app and drafts its contract in plain English. You change it until it's right, then approve it. Each line becomes an automatic check.
+Drafted from your code or your idea
+Sentences you can read, not code
+Nothing goes on it that can't be checked
+Contract · shopnest.app Approved What this app must always do
+01 Customers can sign in with email or Google.
+02 Checkout always charges the amount in the cart.
+03 One shop never sees another shop's orders.
+04 Order pages load in under two seconds.
+05 Nothing is deleted without the owner's say-so.
+Approved by the owner 02
+
+### Every change has to prove itself.
+Fixes, features, upgrades and security patches all meet the same gate. A change that breaks a single line of your contract doesn't ship, and your app stays on its last good version.
+Checks the agents never get to see
+Reviewed by an AI from a different company
+You merge every change yourself
+Change
+Upgrade the login library to v5
+Your contract 11 of 12 · clause 01 fails
+Your app's own tests All pass
+Hidden checks All pass
+Review by a second AI No critical findings
+Security scan Clean
+Held back Your app stays on v4 03
+
+### If something we cover breaks, it's on us.
+A failure your contract covers is ours to fix, at our cost, proven before it ships. Then the contract gets a new line, so the same failure can never come back unnoticed.
+Re-fixed at our cost
+Every failure becomes a new clause
+Every claim recorded in your app's ledger
+Warranty claim
+Closed 09:12 Reported
+Totals are off by one cent on discounted orders.
+
+09:20 Covered
+Clause 02: checkout always charges the amount in the cart.
+
+14:05 Re-fixed, at our cost
+Proven against every clause before it shipped.
+
+14:05 Clause 13 added
+Discounts never change a total by more than the discount.
+
+## Between changes, we keep watch.
+Launch is where most help stops. It's where ours starts.
+Uptime and speed
+Your live app is probed around the clock. A slowdown or an outage opens an incident before your customers write in.
+Security advisories
+Every library your app uses is checked against new advisories. A patch is prepared and proven against your contract.
+Incidents, investigated
+Operations agents trace an alert to its cause and propose a fix, within strict limits and with every action logged.
+Anyone's changes, checked
+Hire a freelancer or use an AI builder again: their pull requests are checked against your contract too.
+
+## Your app stays where it lives.
+We don't move your app onto our servers. We work through the accounts you already have, with access you can see and take back.
+Your accounts stay yours
+Your code stays on your GitHub, your data in your Supabase, your site on your Vercel or Netlify. You connect them to us with their own sign-in, and can disconnect any time.
+Every change, previewed first
+Each change gets its own preview of your site and a copy of your database. Your contract runs against the preview before a single user sees it.
+A way back, always
+If a release misbehaves, your site goes back to its last good version and your database has restore points. Recovery is part of the job, not an afterthought.
+
+## Beyond your tests: what nobody told your AI builder.
+An app can pass every test and still leak data or fall over. Every app we adopt is checked against this baseline. Each gap comes with proof, gets fixed, and is added to your contract so it stays fixed.
+Security
+Every table only shows each user their own rows
+Secret keys kept out of the browser and out of your code's history
+Security headers and cross-site rules set right
+Libraries with known flaws found and patched
+Reliability
+Calls to outside services that give up and retry instead of hanging
+Backups switched on, and a restore actually tried
+Errors reported somewhere a person will see them
+Lists and queries that stay fast as your data grows
+Good practice
+Test and live keys kept apart
+A health check your hosting can watch
+Logs that explain what went wrong
+Updates kept current, one proven change at a time
+Our own test run · 18 Oct 2026
+
+## Proof, with the misses left in.
+14 real tasks from open-source projects like Hugo, Gson, jsoup, Pydantic and more, graded afterwards by tests the projects' own maintainers wrote. Our agents never saw them.
+3
+delivered, all correct
+0
+wrong changes delivered
+5
+correct changes held back
+6
+not solved or unfinished
+Every task, every number gson · fix · strict mode running Replay 0:00 Request Make Gson refuse text that isn't valid in strict mode.
+0:02 Planner Writes the tests that define done, then plans one change.
+1:08 Developer Edits JsonReader.java and adds the tests. One failing run, fixed.
+1:57 Test engineer Writes more tests that try to break it. They pass.
+3:02 Reviewer A model from a different company reads the change. No critical findings.
+4:28 Gate Every check passes. Delivered, ready to merge.
+4 min 28 s
+start to delivered
+103
+tool calls
+8
+AI model calls
+$0.10
+of AI time
+One of the three delivered tasks, replayed from the steps our system recorded.
+
+## Who else answers for your app?
+You and an AI builder A freelancer A rescue agency Warrantee
+Someone answers when it breaks You do If they're free For a short window In writing
+A written contract of what your app must do As an audit You approve it
+Every change proven before users see it Security scans Depends During the project Every change
+Unproven changes held back Automatically
+A warranty on what the contract covers 30 to 90 days For as long as we keep it
+How pricing works. One fixed price to adopt your app and write its contract, then one monthly fee to keep it. Both are worked out from your app and agreed before any work starts.
+
+## The warranty, in plain words.
+A promise about our own work, written down before we start. No small print about AI.
+Draft terms for beta apps, not yet in force. Read the draft
+Covered
+A line of your approved contract that stops working for your users after a change we made.
+What we do
+Fix it at our cost, prove the fix against the whole contract, and add a clause so it can't recur.
+If we can't fix it
+We refund what you paid for that work.
+Service credits
+For apps we keep: when a covered failure reaches your users, credit comes off next month's fee, up to the whole fee.
+How to claim
+Tell us within 30 days. We confirm it, fix it, and the credit is applied on its own.
+Not covered
+Changes made outside Warrantee, outages of the services your app runs on, and anything not in your contract.
+
+## Questions, answered.
+AS Ayush Saxena
+Founder
+Every claim on this site has a date beside it, and the misses are published too. Ask me anything about how it works.
+Is this insurance?
+No. It's a promise about our own work. If something on your approved contract breaks after a change we made, we fix it at our cost. If we can't fix it, we refund what you paid for that work. For apps we keep, a covered failure that reaches your users also earns credit off next month's fee, up to the whole fee. The terms are a draft until the private beta.
+Who does the work?
+AI agents: a planner, developers, a test engineer, a reviewer from a different AI company, a judge, and operations agents for live apps. Nothing ships unless it passes the contract you approved, and you merge every change yourself.
+What is the contract?
+Plain-English sentences about what your app must always do, like "checkout always charges the amount in the cart". Each one becomes an automatic check. You read and approve it before we start, and you can change it any time.
+My app was built with an AI builder. Is it for me?
+Yes. That is who we built Warrantee for, whichever tool built your app, or if a developer wrote it by hand. If its code can live on GitHub, we can adopt it.
+How much does it cost?
+One fixed price to adopt your app (write its contract and close the holes), then a monthly fee for keeping it. Both are worked out from your app and fixed before any work starts. Approving a job holds its price, and it's charged only when the work is proven and delivered. Beta members get a free contract preview first.
+Do you host my app?
+No. Your app keeps running where it runs today, on your own accounts: GitHub, Supabase, Vercel, Netlify. You connect them to us with their own sign-in and can disconnect any time. Outages of those services are covered by their own guarantees, not ours.
+Will you touch my live app?
+Never without your approval. Every change is tried on a preview of your site and a copy of your database first, and you merge every change yourself. If a release misbehaves, we roll it back.
+My app passes its tests. What else do you check?
+Security, reliability and good practice: that each user only sees their own data, that secret keys aren't in the browser, that backups are on, that calls to outside services can't hang your app, and more. Every gap comes with proof, gets fixed, and joins your contract.
+Can you build a new app too?
+Yes. We build it, then keep it working under the same kind of contract.
+When can I start?
+The private beta opens in January 2027. We'll let people in by fit and by how many apps we can look after safely, starting with apps that are already live.
+
+## Put your app in writing.
+Every result we have so far is on the proof page, each with its date and what it cost.
+See the proof Sign-ups open with the private beta in January 2027 . Live apps first.
+Warrantee Software that someone answers for. AI engineers keep your app to a contract you approve, and a change that can't prove itself never ships.
+Product
+How it works Proof Pricing Security Terms
+Terms (draft) Warranty (draft) Cancellation and refunds Delivery Privacy Company
+Contact Sign in Beta
+Opens January 2027 © 2026 Warrantee . Built by Ayush Saxena .
+
+---
+Source: https://ayush1906saxena.github.io/warrantee/how-it-works
+
+Skip to content Warrantee How it works
+Proof
+Pricing
+Security
+Warranty
+Watch a real job How it works
+
+# One contract. Every change proven against it.
+Warrantee adopts the app you have, or builds a new one, writes down what it must always do, and keeps it that way. Here is every step, in plain words. 01 · Start
+
+## Adopt the app you have, or build a new one.
+For an app you already have, we read its code and sort every part into three piles. For a new app, we build it first, then keep it the same way.
+Keep
+What works and is safe stays exactly as it is. Most of your app, usually.
+Harden
+What works but could leak, break or cost you: fixed, each fix proven by a check.
+Replace
+What can't be made safe: rebuilt, with your approval, and only that part.
+02 · The contract
+
+## What your app must always do, in your words.
+Each line is a sentence you can read, and each becomes an automatic check. You change it until it's right, then approve it. If something can't be written as a check, it doesn't go on the list, and we tell you.
+Contract · shopnest.app Approved What this app must always do
+01 Customers can sign in with email or Google.
+02 Checkout always charges the amount in the cart.
+03 One shop never sees another shop's orders.
+04 Order pages load in under two seconds.
+05 Nothing is deleted without the owner's say-so.
+Approved by the owner 03 · Custody
+
+## Every change goes through six checks.
+Fixes, features, upgrades and security patches all take the same road. When a change fails, your app stays on its last good version while we try again.
+01
+Your list
+Every line you approved runs as an automatic check. A change that fails one doesn't ship.
+
+02
+Hidden checks
+Extra tests the AI that wrote the change never sees. Their results go to the judge, so code that only passes the visible tests is caught.
+
+03
+A second AI
+A reviewer from a different company reads every change. The writer never approves its own work.
+
+04
+A security gate
+Leaked keys, risky patterns and libraries with known holes stop the change.
+
+05
+A judge
+One last look at all the evidence together before anything reaches you.
+
+06
+You
+You merge the change. Until then, nothing in your app is different.
+
+04 · The warranty
+
+## If something on your list breaks for your users, it's on us.
+For beta apps, the warranty will work like this:
+Covered: a behaviour on your approved list that breaks for your users after a change we made.
+What we do: fix it at our cost and prove the fix against your whole list. If we can't fix it, we refund what you paid for that work.
+And then: your list gets a new line, so the same failure is checked for ever after.
+Service credits: for apps we keep, a covered failure that reaches your users takes credit off next month's fee, up to the whole fee.
+Not covered: changes made outside Warrantee, behaviours that aren't on your list, and outages of services we don't control.
+These are draft terms, not yet in force. Read the draft .
+
+## Who does the work
+AI agents: one plans, others write the code and the tests, a reviewer from a different company checks it, and operations agents watch for trouble. No person reviews your code unless that changes, and if it does, this page will say so.
+
+## What we turn down
+If we don't think we can finish a job, we say so before you pay, not after. And we won't promise what we can't check: if a behaviour can't be written as a test, it stays off your list.
+See the proof Warrantee Software that someone answers for. AI engineers keep your app to a contract you approve, and a change that can't prove itself never ships.
+Product
+How it works Proof Pricing Security Terms
+Terms (draft) Warranty (draft) Cancellation and refunds Delivery Privacy Company
+Contact Sign in Beta
+Opens January 2027 © 2026 Warrantee . Built by Ayush Saxena .
+
+---
+Source: https://ayush1906saxena.github.io/warrantee/proof
+
+Skip to content Warrantee How it works
+Proof
+Pricing
+Security
+Warranty
+Watch a real job Proof
+
+# Evidence, not reviews.
+We have no customers yet, so there are no testimonials here. There are our own test runs instead, with the date, the method and the misses.
+## Real tasks on real code.
+18 Oct 2026 : 14 tasks taken from open-source projects ( Hugo, Gson, jsoup, Pydantic, SQLAlchemy, Scrapy, pytest, ESLint, Hono and the GitHub CLI ). Each was checked afterwards against tests the AI never saw. 290 minutes in all, $ 16.60 of AI time.
+3
+delivered, all correct
+0
+wrong changes delivered
+5
+correct, but held back by our checks
+6
+not solved or didn't finish
+Results of the 18 Oct 2026 run Task Result Minutes
+Hugo: relative partials (feature, Go) Delivered, correct 73
+Gson: unpaired surrogates (fix, Java) Delivered, correct 4
+SQLAlchemy: in-place mutation (fix, Python) Delivered, correct 13
+ESLint: new-cap globals (feature, JavaScript) Correct, held back 73
+Pydantic: create_model namespace (feature, Python) Correct, held back 25
+jsoup: cyclic append (fix, Java) Correct, held back 32
+Pydantic: NameEmail newline (fix, Python) Correct, held back 11
+Team board API rescue (fix, JavaScript) Correct, held back 5
+Scrapy: generated requests (feature, Python) Not solved 48
+GitHub CLI: clone over SSH (fix, Go) Not solved 43
+pytest: walrus rewrite (fix, Python) Not solved 45
+Hono: strict slash (fix, TypeScript) Not solved 69
+Bookshelf API rescue (fix, Python) Not solved 9
+Gson: character offset (feature, Java) Didn't finish 3
+What it means: when our checks let a change through, it was right every time in this run. They are still too strict, so five correct changes were thrown away. That is the next thing we're fixing.
+
+## What we put the system itself through.
+Measured on 3 October 2026, on our own machines.
+
+### When parts of it break
+We broke our own system on purpose, one part at a time, while it worked, and measured how it came back.
+6 s
+of failed database writes when the main database server was deleted; a replica took over
+16 s
+for every AI worker to be replaced after all of them were killed at once
+~4 s
+for tool calls to work again after a minute-long outage of the gateway every agent uses
+How: A probe made a tool call and a database write every second, through each fault and after it.
+
+### When everything is lost
+Backups only count if they restore. We restored the whole database from them into a new server and compared.
+211 s
+from asking for the restore to a database answering
+0
+rows lost: every table matched, 79,100 tool calls and 34,606 agent steps included
+How: A nightly backup plus a continuous log of every change since. Under load, at most the last 5 minutes could be at risk.
+
+### When it breaks in production
+A sample shop runs beside us. When its alerts fire, our operations agents investigate and repair it, within strict limits.
+3 of 3
+injected incidents found and repaired end to end
+How: Each repair goes through the same policy gateway as every agent action, is checked afterwards, and is undone if the service doesn't recover.
+
+### When someone attacks it
+We scanned every library we ship for known vulnerabilities and tested the walls around the sandbox where AI-written code runs.
+170 → 2
+known vulnerabilities in our own dependencies, none critical or high left
+0
+internal services or internet hosts reachable from the sandbox, beyond the package cache and its own storage
+How: Dependencies checked against the OSV database; the sandbox's network walls tested from inside it.
+
+## What this doesn't prove
+These are our own tests on our own systems, not an outside audit, and the tasks are smaller than most real apps. No customer has used Warrantee yet. Backups still live on the same machines as the system they protect until we move to the cloud. Every new run replaces the numbers above, with its date.
+How it works Warrantee Software that someone answers for. AI engineers keep your app to a contract you approve, and a change that can't prove itself never ships.
+Product
+How it works Proof Pricing Security Terms
+Terms (draft) Warranty (draft) Cancellation and refunds Delivery Privacy Company
+Contact Sign in Beta
+Opens January 2027 © 2026 Warrantee . Built by Ayush Saxena .
+
+---
+Source: https://ayush1906saxena.github.io/warrantee/security
+
+Skip to content Warrantee How it works
+Proof
+Pricing
+Security
+Warranty
+Watch a real job Security and trust
+
+# What happens to your code.
+Who sees it, how long we keep it, and what we don't claim. Each answer describes how Warrantee runs today.
+## Your code
+What can Warrantee reach?
+Only the GitHub repositories you select when you connect us. Not your other repositories, and never your live app. For a new build without GitHub, you download the finished code as a zip.
+Where does the work happen?
+In a sealed copy of your code. Tests run in a throwaway sandbox that can't reach our internal services or the internet, beyond a package cache. Nothing changes in your repository until you merge the change.
+How long do you keep it?
+Our working copy of your code is deleted once it has gone unused for 14 days. For a new build we keep it 90 days. Our record of a job's steps expires after 90 days, and what our system learns across jobs never contains code.
+
+## The AI models
+Who sees my code?
+Today, AI models hosted by Ollama read it to do the work. Ollama's policy says cloud prompts and responses are processed only to serve the request, are not stored beyond that, and are never used to train models. Processing may happen in the United States. If we change providers, this page changes first. Ollama's privacy policy
+What about passwords and keys in my code?
+They are swapped for placeholders before any model reads your code, so no model sees them. If a change needs to touch that line, the real value is put back only when the change is saved.
+Does one AI mark its own work?
+No. The model that writes a change never approves it. A reviewer model from a different company reads every change, and a job won't start if the two would come from the same family.
+
+## Your account
+When do I pay?
+One fixed price, shown before any work starts. Approving holds it; the hold is charged only when the job is proven and delivered, and released if it isn't. Payments go through Razorpay in India and Stripe elsewhere, so your card and bank details never reach us.
+Can someone run up costs on my account?
+Every account has limits on how many jobs can wait for approval and how many can start in a day, so a stolen login or a script can't start jobs without end.
+What do you keep about me from the waitlist?
+Your email, the optional answers you tapped, and a WhatsApp number only if you gave one. See the privacy page for how to have it deleted.
+
+## What we don't claim
+We don't have a SOC 2 or ISO 27001 certificate yet.
+Warrantee is not a penetration test or a security audit. Our security checks find known risky patterns, leaked keys and vulnerable libraries, and a serious finding stops a change.
+No check catches everything. That's why the warranty exists, and why every miss we find becomes a new check.
+Warrantee Software that someone answers for. AI engineers keep your app to a contract you approve, and a change that can't prove itself never ships.
+Product
+How it works Proof Pricing Security Terms
+Terms (draft) Warranty (draft) Cancellation and refunds Delivery Privacy Company
+Contact Sign in Beta
+Opens January 2027 © 2026 Warrantee . Built by Ayush Saxena .
+
+---
+Source: https://ayush1906saxena.github.io/warrantee/pricing
+
+Skip to content Warrantee How it works
+Proof
+Pricing
+Security
+Warranty
+Watch a real job Pricing
+
+# One price per job. Paid only when it's proven.
+There is no price list. Each job gets one fixed price, worked out from what it takes to build and check it, and shown with its tests before any work starts. You approve both together. 01
+## Describe the job
+In a sentence or two, or out loud. Nothing is charged for asking.
+
+02
+## See the tests and one price
+Before any work starts: the list of what “done” means, and a fixed price for meeting it.
+
+03
+## Approve, and we hold the amount
+Approving places a hold for the price. Nothing is charged yet.
+
+04
+## Charged only on delivery
+When every test passes and the work reaches you, the hold is charged. If we can’t prove it, the hold is released.
+
+## What decides the price.
+The size of the change, how much of your app it touches, and how much checking it takes to prove. A one-screen fix costs little; a new feature across your app costs more.
+Fixed, not metered
+The price you approve is the price you pay. If the job takes us longer than we thought, that’s ours to carry.
+In your currency
+Rupees in India, US dollars everywhere else, decided by where you are when you start the job.
+Too big to promise?
+If we can’t price a job with confidence, we say so and suggest a smaller first step, instead of guessing.
+Free when it’s on us
+A covered failure after delivery is re-fixed at no charge, under the warranty .
+Keeping an app working
+For an app in our custody, a monthly price worked out the same way, shown before you agree to it.
+
+## How you can pay.
+In India
+Through Razorpay
+UPI: any UPI app
+Debit and credit cards
+Netbanking and wallets
+Everywhere else
+Through Stripe
+Debit and credit cards
+Apple Pay
+Google Pay
+You pay on Razorpay’s or Stripe’s own checkout. Your card, UPI and bank details go to them, never to us.
+Accounts and payments open with the private beta in January 2027 .
+Until then, see what a real job looks like, misses included.
+See the proof Warrantee Software that someone answers for. AI engineers keep your app to a contract you approve, and a change that can't prove itself never ships.
+Product
+How it works Proof Pricing Security Terms
+Terms (draft) Warranty (draft) Cancellation and refunds Delivery Privacy Company
+Contact Sign in Beta
+Opens January 2027 © 2026 Warrantee . Built by Ayush Saxena .
+
+---
+Source: https://ayush1906saxena.github.io/warrantee/warranty
+
+Skip to content Warrantee How it works
+Proof
+Pricing
+Security
+Warranty
+Watch a real job Warranty terms · draft
+
+# The warranty, in draft.
+This is how we intend the warranty to work for apps in the private beta. It is not in force , and it will change after legal review. Nothing here is an offer. 1
+## What is covered
+A behaviour written on your approved list that stops working for your users, after a change Warrantee made and you merged.
+
+2
+## What we do
+We fix it at our cost and prove the fix against your whole list. If we can't fix it, we refund what you paid for that work. Our total liability is capped at the fees you paid in the previous twelve months.
+
+3
+## What changes afterwards
+Your list gets a new line describing the failure, so it is checked on every change from then on.
+
+4
+## Service credits, for apps we keep
+When a covered failure reaches your users, a credit comes off the next month's fee, scaled to how many failures there were and capped at that month's whole fee. Credits are the only remedy for the month itself; the fix above still happens. Claim within 30 days of the failure.
+
+5
+## What is not covered
+Changes made outside Warrantee ; behaviours that aren't on your list; outages of services we don't control, such as your hosting, database, payment or email providers (they carry their own guarantees); changes to the contract you made yourself; and losses beyond the refund.
+
+6
+## How to report a failure
+From your jobs page, with "Something broke". We confirm whether it is covered and start the fix.
+
+Warrantee Software that someone answers for. AI engineers keep your app to a contract you approve, and a change that can't prove itself never ships.
+Product
+How it works Proof Pricing Security Terms
+Terms (draft) Warranty (draft) Cancellation and refunds Delivery Privacy Company
+Contact Sign in Beta
+Opens January 2027 © 2026 Warrantee . Built by Ayush Saxena .
+
+---
+Source: https://ayush1906saxena.github.io/warrantee/terms
+
+Skip to content Warrantee How it works
+Proof
+Pricing
+Security
+Warranty
+Watch a real job Terms of service · draft
+
+# The terms, in plain words.
+What you can expect from Warrantee , and what we expect from you. Draft. These terms apply from the private beta and will change after legal review.
+1
+## The service
+Warrantee uses AI engineers to build, fix and look after software. For each job we write down what “done” means as a list of tests, and deliver the work only once every test passes.
+
+2
+## Your approval
+No work starts until you approve a job’s tests and price. You can send a draft back with notes up to three times, or close the job, at no charge.
+
+3
+## Price and payment
+Each job has one fixed price, shown before you approve it. Approving places a hold for that amount with Razorpay or Stripe. We charge the hold only when the job is proven and delivered; if it isn’t, the hold is released. See cancellation and refunds .
+
+4
+## Delivery
+We deliver as a pull request to your repository or a zip of the code. See delivery .
+
+5
+## Who owns the work
+You do. Code we deliver for a job you paid for is yours, with the tests that prove it. We keep no rights in it beyond what we need to do the job and honour the warranty.
+
+6
+## Your part
+You must have the right to the code and repositories you give us, and you mustn’t ask for anything unlawful or harmful. Review what we deliver before you put it live; you decide what to merge and release.
+
+7
+## The warranty
+Covered failures after delivery are fixed at our cost, as the warranty describes.
+
+8
+## Limits
+Our total liability for any claim is limited to the fees you paid us in the twelve months before it. We aren’t liable for indirect losses, such as lost profits or data, or for services we don’t control, such as your hosting.
+
+9
+## Closing an account
+You can close your account at any time. We may suspend an account that breaks these terms, after telling you why where we can.
+
+10
+## Law
+These terms are governed by the laws of India, and the courts of Bengaluru have jurisdiction.
+
+Warrantee Software that someone answers for. AI engineers keep your app to a contract you approve, and a change that can't prove itself never ships.
+Product
+How it works Proof Pricing Security Terms
+Terms (draft) Warranty (draft) Cancellation and refunds Delivery Privacy Company
+Contact Sign in Beta
+Opens January 2027 © 2026 Warrantee . Built by Ayush Saxena .
+
+---
+Source: https://ayush1906saxena.github.io/warrantee/refunds
+
+Skip to content Warrantee How it works
+Proof
+Pricing
+Security
+Warranty
+Watch a real job Cancellation and refunds
+
+# You pay for proven work, and nothing else.
+Approving a job holds its price. The hold is charged only on delivery, so most of the time there is nothing to refund. Proven and delivered
+The hold is charged. That's the only time money moves to us.
+Not proven, or cancelled
+The hold is released. You were never charged.
+Breaks after delivery
+Covered failures are re-fixed free, or refunded if we can't fix them.
+Draft. These terms apply from the private beta and will change after legal review.
+1
+## Before you approve
+Cancel any job at no charge. Nothing is held until you approve.
+
+2
+## After you approve, before delivery
+Write to us to cancel. Work stops and the hold is released. If a job can’t be proven against its tests, the hold is released automatically.
+
+3
+## When a released hold reaches you
+Stripe (US dollars): the hold disappears at once, though your bank may take a few days to show it. Razorpay (rupees): a hold we don’t charge is returned automatically within 5 days; for UPI and some cards the amount was taken at payment, and your bank returns it in 5 to 7 working days after that.
+
+4
+## After delivery
+If a behaviour on your approved list stops working because of a change we made, we fix it at our cost. If we can’t, we refund what you paid for that work, in full, to the way you paid. Refunds reach you in 5 to 7 working days.
+
+5
+## What isn't refunded
+Work that was delivered and meets its approved tests, when the request itself changes afterwards. A change of mind is a new job.
+
+6
+## How to ask
+From your jobs page, with “Something broke” . We answer within two working days.
+
+Warrantee Software that someone answers for. AI engineers keep your app to a contract you approve, and a change that can't prove itself never ships.
+Product
+How it works Proof Pricing Security Terms
+Terms (draft) Warranty (draft) Cancellation and refunds Delivery Privacy Company
+Contact Sign in Beta
+Opens January 2027 © 2026 Warrantee . Built by Ayush Saxena .
+
+---
+Source: https://ayush1906saxena.github.io/warrantee/delivery
+
+Skip to content Warrantee How it works
+Proof
+Pricing
+Security
+Warranty
+Watch a real job Delivery
+
+# How the work reaches you.
+Warrantee is a digital service. Nothing is shipped; the work arrives in your repository or as a download. 1
+## What you receive
+The code change, the tests that prove it, and the evidence for every check: as a pull request in your GitHub repository, or, without GitHub, as a zip you download from your jobs page.
+
+2
+## How long it takes
+Your jobs page shows every step as it happens, with how long that kind of step usually takes. Most jobs finish within hours of approval; larger ones can take longer.
+
+3
+## When it counts as delivered
+When every approved test passes and the pull request or zip is ready for you. That’s when the held payment is charged, and when the warranty starts.
+
+4
+## If it can't be delivered
+If we can’t prove the work against its tests, we tell you why, nothing is delivered, and the hold is released. You aren’t charged.
+
+Warrantee Software that someone answers for. AI engineers keep your app to a contract you approve, and a change that can't prove itself never ships.
+Product
+How it works Proof Pricing Security Terms
+Terms (draft) Warranty (draft) Cancellation and refunds Delivery Privacy Company
+Contact Sign in Beta
+Opens January 2027 © 2026 Warrantee . Built by Ayush Saxena .
+
+---
+Source: https://ayush1906saxena.github.io/warrantee/contact
+
+Skip to content Warrantee How it works
+Proof
+Pricing
+Security
+Warranty
+Watch a real job Contact
+
+# A person answers.
+Questions about a job, a payment or the beta. We answer within two working days. Run by
+Ayush Saxena , founder
+Based in
+Bengaluru, India
+Our email address arrives with our domain. Signed in? Use “Something broke” on any job and it reaches us directly.
+Warrantee Software that someone answers for. AI engineers keep your app to a contract you approve, and a change that can't prove itself never ships.
+Product
+How it works Proof Pricing Security Terms
+Terms (draft) Warranty (draft) Cancellation and refunds Delivery Privacy Company
+Contact Sign in Beta
+Opens January 2027 © 2026 Warrantee . Built by Ayush Saxena .
+
+---
+Source: https://ayush1906saxena.github.io/warrantee/privacy
+
+Skip to content Warrantee How it works
+Proof
+Pricing
+Security
+Warranty
+Watch a real job Privacy
+
+# What we keep, and why.
+Your account, your payments, the waitlist and this site, in plain words. How we handle your code is on the security page. 1
+## What we collect
+For the waitlist: your email address; the optional answers you tap (who you are, your app's stage, what built it, your country); a WhatsApp number only if you choose to give one; and which form you used. For an account: your name and email address, from Google, GitHub or the email you sign in with. For a payment: the amount, the job it was for, and the payment provider's reference for it.
+
+2
+## Payments
+Razorpay (India) and Stripe (elsewhere) take your payment on their own pages. Your card number, UPI ID and bank details go to them, never to us, and they keep them under their own privacy policies.
+
+3
+## Sign-in
+Clerk runs sign-in for us. If you continue with Google or GitHub, we receive your name, email address and profile picture, and nothing from your Google or GitHub account beyond that.
+
+4
+## Why
+To confirm your address, to decide who to invite to the beta first, and to write to you about the beta; to sign you in and show you your own jobs; to take, charge, release or refund your payments; and to tell you when a job needs you or is done. Nothing else.
+
+5
+## Who sees it
+Us, and the services that do the work above for us: Clerk for sign-in, Razorpay and Stripe for payments, and our email provider. We don't sell it, share it otherwise or use it for advertising. This site sets no tracking cookies; sign-in sets the cookies it needs to keep you signed in.
+
+6
+## How long
+Waitlist answers: until the beta decisions are made, or until you ask us to delete them. An account: until you close it. Payment records: as long as tax and accounting law requires.
+
+7
+## Deleting it
+Reply to any email we send you and ask; we delete your entry and confirm.
+
+Warrantee Software that someone answers for. AI engineers keep your app to a contract you approve, and a change that can't prove itself never ships.
+Product
+How it works Proof Pricing Security Terms
+Terms (draft) Warranty (draft) Cancellation and refunds Delivery Privacy Company
+Contact Sign in Beta
+Opens January 2027 © 2026 Warrantee . Built by Ayush Saxena .

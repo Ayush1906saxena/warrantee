@@ -1,0 +1,131 @@
+User-agent: *
+Allow: /warrantee
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+Disallow: /warrantee/billing
+Disallow: /warrantee/sign-in
+Disallow: /warrantee/sso-callback
+
+User-agent: GPTBot
+Allow: /warrantee
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+Disallow: /warrantee/billing
+Disallow: /warrantee/sign-in
+Disallow: /warrantee/sso-callback
+
+User-agent: OAI-SearchBot
+Allow: /warrantee
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+Disallow: /warrantee/billing
+Disallow: /warrantee/sign-in
+Disallow: /warrantee/sso-callback
+
+User-agent: ChatGPT-User
+Allow: /warrantee
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+Disallow: /warrantee/billing
+Disallow: /warrantee/sign-in
+Disallow: /warrantee/sso-callback
+
+User-agent: ClaudeBot
+Allow: /warrantee
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+Disallow: /warrantee/billing
+Disallow: /warrantee/sign-in
+Disallow: /warrantee/sso-callback
+
+User-agent: Claude-SearchBot
+Allow: /warrantee
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+Disallow: /warrantee/billing
+Disallow: /warrantee/sign-in
+Disallow: /warrantee/sso-callback
+
+User-agent: Claude-User
+Allow: /warrantee
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+Disallow: /warrantee/billing
+Disallow: /warrantee/sign-in
+Disallow: /warrantee/sso-callback
+
+User-agent: PerplexityBot
+Allow: /warrantee
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+Disallow: /warrantee/billing
+Disallow: /warrantee/sign-in
+Disallow: /warrantee/sso-callback
+
+User-agent: Perplexity-User
+Allow: /warrantee
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+Disallow: /warrantee/billing
+Disallow: /warrantee/sign-in
+Disallow: /warrantee/sso-callback
+
+User-agent: Google-Extended
+Allow: /warrantee
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+Disallow: /warrantee/billing
+Disallow: /warrantee/sign-in
+Disallow: /warrantee/sso-callback
+
+User-agent: Applebot-Extended
+Allow: /warrantee
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+Disallow: /warrantee/billing
+Disallow: /warrantee/sign-in
+Disallow: /warrantee/sso-callback
+
+User-agent: Bingbot
+Allow: /warrantee
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+Disallow: /warrantee/billing
+Disallow: /warrantee/sign-in
+Disallow: /warrantee/sso-callback
+
+User-agent: Googlebot
+Allow: /warrantee
+Disallow: /warrantee/jobs
+Disallow: /warrantee/apps
+Disallow: /warrantee/welcome
+Disallow: /warrantee/confirm
+Disallow: /warrantee/billing
+Disallow: /warrantee/sign-in
+Disallow: /warrantee/sso-callback
+
+Sitemap: https://ayush1906saxena.github.io/warrantee/sitemap.xml
