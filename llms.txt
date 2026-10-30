@@ -1,0 +1,65 @@
+# Warrantee
+
+> Warrantee's AI engineers take over your app, write down what it must always do, and prove every change against that contract before it ships. Unproven changes are held back. Covered failures are fixed at our cost. Private beta January 2027.
+
+Warrantee is an independent, AI-delivered software service. AI agents (a planner, developers, a test engineer, a reviewer from a
+different AI company, a judge and operations agents) adopt existing apps or build new ones, often apps made with AI builders such
+as Lovable, Bolt, Replit or Cursor; no builder is a partner. The owner approves a plain-English contract of what the app must
+always do; every change must pass it before users see it, a change that can't prove itself is held back and the app stays on its
+last good version, and the owner merges every change. A warranty (draft terms, not yet in force) covers a contract line that
+breaks after a change Warrantee made: fixed at Warrantee's cost; if it can't be fixed, the customer gets back what they paid for that work.
+
+## Key facts
+
+- What it is: AI software custody. An app kept to an approved contract, every change proven before it ships, with a warranty.
+- Who it is for: founders and small businesses whose app was built fast (with an AI builder or by hand) and now has to be trusted.
+- Status: private beta opens January 2027; sign-ups open with the beta. No public customers yet.
+- Results so far: our own dated test runs, misses included, on the Proof page (18 Oct 2026: 14 real open-source tasks, 3 delivered
+  and correct, 0 wrong changes delivered, 5 correct changes held back, 6 not solved or unfinished).
+- Pricing: one fixed price per job (and a monthly price for an app in custody), worked out from the work and shown with its tests
+  before anything starts. No public price list. Approving holds the price; it is charged only when the job is proven and delivered,
+  and released if it isn't. Payments: Razorpay in India (UPI, cards, netbanking, rupees), Stripe elsewhere (cards, Apple Pay, Google Pay, US dollars).
+- Sign-in: Google, GitHub or an email code.
+- Code access: through a GitHub App the owner installs; work happens in a copy, and nothing reaches the live app without the owner merging it.
+- Founder: Ayush Saxena. Founded 2026. Last updated 2026-10-30.
+
+## How it differs
+
+- From AI app builders (Lovable, Bolt, Replit, Base44, v0): builders write apps; Warrantee adopts an app whichever tool built it and
+  answers for it afterwards, against a contract, with a warranty.
+- From app rescue and maintenance shops: those are people fixing code on request; Warrantee keeps a written contract, proves every
+  change against it before release, and holds back what it can't prove.
+- From testing and QA services: those report failures; Warrantee also makes the fix, proves it, and adds a clause so it can't recur.
+- Not insurance: the warranty is a promise about Warrantee's own work, not cover for business losses.
+
+## Pages
+
+- [Warrantee: AI app maintenance and bug fixing, proven before it ships](https://ayush1906saxena.github.io/warrantee/): Warrantee's AI engineers take over your app, write down what it must always do, and prove every change against that contract before it ships. Unproven changes are held back. Covered failures are fixed at our cost. Private beta January 2027.
+- [How it works: one contract, every change proven](https://ayush1906saxena.github.io/warrantee/how-it-works/): Warrantee adopts the app you have or builds a new one, writes down what it must always do, checks every change against that list with six checks, and answers for failures with a written warranty.
+- [Proof: evidence, not reviews](https://ayush1906saxena.github.io/warrantee/proof/): Our own dated test runs on real open-source code, misses included: 3 of 14 tasks delivered, all correct, 0 wrong changes delivered. Plus what we put the system itself through.
+- [Security and trust: what happens to your code](https://ayush1906saxena.github.io/warrantee/security/): Which repositories Warrantee can reach, which AI models read your code and what they keep, how long we keep it, how secrets stay out of every prompt, and what we don't claim.
+- [Pricing: one price per job, paid only when it's proven](https://ayush1906saxena.github.io/warrantee/pricing/): No price list: each Warrantee job gets one fixed price, shown with its tests before work starts. Approving holds the amount; it is charged only when the job is proven and delivered. Rupees through Razorpay in India, US dollars through Stripe elsewhere.
+- [Free code health check for AI-built apps (Lovable, Bolt, Replit)](https://ayush1906saxena.github.io/warrantee/check/): Paste your app's public GitHub address and get a free report of its security, reliability and good-practice problems, each with where it is. No sign-in, and nothing changes in your code.
+- [Warranty terms (draft)](https://ayush1906saxena.github.io/warrantee/warranty/): How the Warrantee warranty is intended to work for beta apps: what is covered, what we do, and what is not covered. A draft, not in force.
+- [Terms of service (draft)](https://ayush1906saxena.github.io/warrantee/terms/): Warrantee's terms in plain words: approval before any work, one fixed price held at approval and charged on delivery, you own the code, liability limits, Indian law. A draft until legal review.
+- [Cancellation and refunds](https://ayush1906saxena.github.io/warrantee/refunds/): Approving a Warrantee job holds its price. The hold is charged only on delivery and released if the job isn't proven or is cancelled. Covered failures after delivery are re-fixed free or refunded.
+- [Delivery](https://ayush1906saxena.github.io/warrantee/delivery/): Warrantee is a digital service: work arrives as a pull request in your repository or a zip download, with the tests and evidence. Nothing is shipped. Undelivered work is never charged.
+- [Contact](https://ayush1906saxena.github.io/warrantee/contact/): Who runs Warrantee and how to reach them. A person answers within two working days.
+- [Privacy](https://ayush1906saxena.github.io/warrantee/privacy/): What Warrantee keeps for the waitlist, accounts and payments, the legal basis and how long for each, every cookie, who processes it, data sent abroad, and your rights in the EU, UK, India and California.
+
+## Questions
+
+- **Is this insurance?** No. It's a promise about our own work. If something on your approved contract breaks after a change we made, we fix it at our cost. If we can't fix it, we refund what you paid for that work. For apps we keep, a covered failure that reaches your users also earns credit off next month's fee, up to the whole fee. The terms are a draft until the private beta.
+- **Who does the work?** AI agents: a planner, developers, a test engineer, a reviewer from a different AI company, a judge, and operations agents for live apps. Nothing ships unless it passes the contract you approved, and you merge every change yourself.
+- **What is the contract?** Plain-English sentences about what your app must always do, like "checkout always charges the amount in the cart". Each one becomes an automatic check. You read and approve it before we start, and you can change it any time.
+- **My app was built with an AI builder. Is it for me?** Yes. That is who we built Warrantee for, whichever tool built your app, or if a developer wrote it by hand. If its code can live on GitHub, we can adopt it.
+- **How much does it cost?** One fixed price to adopt your app (write its contract and close the holes), then a monthly fee for keeping it. Both are worked out from your app and fixed before any work starts. Approving a job holds its price, and it's charged only when the work is proven and delivered. Beta members get a free contract preview first.
+- **Do you host my app?** No. Your app keeps running where it runs today, on your own accounts: GitHub, Supabase, Vercel, Netlify. You connect them to us with their own sign-in and can disconnect any time. Outages of those services are covered by their own guarantees, not ours.
+- **Will you touch my live app?** Never without your approval. Every change is tried on a preview of your site and a copy of your database first, and you merge every change yourself. If a release misbehaves, we roll it back.
+- **My app passes its tests. What else do you check?** Security, reliability and good practice: that each user only sees their own data, that secret keys aren't in the browser, that backups are on, that calls to outside services can't hang your app, and more. Every gap comes with proof, gets fixed, and joins your contract.
+- **Can you build a new app too?** Yes. We build it, then keep it working under the same kind of contract.
+- **When can I start?** The private beta opens in January 2027. We'll let people in by fit and by how many apps we can look after safely, starting with apps that are already live.
+
+## Optional
+
+- [Full text of every page](https://ayush1906saxena.github.io/warrantee/llms-full.txt)
